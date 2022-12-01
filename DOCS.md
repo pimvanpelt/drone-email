@@ -52,7 +52,7 @@ steps:
       host: smtp.mailgun.org
 +     username:
 +       from_secret: email_username
-+     password: 12345
++     password:
 +       from_secret: email_password
       recipients:
         - octocat@github.com
